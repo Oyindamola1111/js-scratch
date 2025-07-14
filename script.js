@@ -114,49 +114,49 @@
 
 
 
-let firstCard= 10
-let secondCard=11
-let cardArray =[firstCard,secondCard]
-let sum = firstCard+secondCard
-let hasBlackJack=false
-let isAlive = true
-let message = ""
-let appear= document.getElementById("display")
-let show=document.getElementById("again")
-let sumEl=document.getElementById("sum-el")
-let cardEl=document.getElementById("card-el")
+// let firstCard= 10
+// let secondCard=11
+// let cardArray =[firstCard,secondCard]
+// let sum = firstCard+secondCard
+// let hasBlackJack=false
+// let isAlive = true
+// let message = ""
+// let appear= document.getElementById("display")
+// let show=document.getElementById("again")
+// let sumEl=document.getElementById("sum-el")
+// let cardEl=document.getElementById("card-el")
 
-function start() {
-    render()
-}
+// function start() {
+//     render()
+// }
 
 
-function render() {
-    cardEl.textContent="Card: " + cardArray[0]+ " " +cardArray[1] 
-    sumEl.textContent="sum: "+ sum
-   if (sum <= 20) {
- message = "do you want to draw a new card"
+// function render() {
+//     cardEl.textContent="Card: " + cardArray[0]+ " " +cardArray[1] 
+//     sumEl.textContent="sum: "+ sum
+//    if (sum <= 20) {
+//  message = "do you want to draw a new card"
  
-}else if (sum === 21) {
- message = "wohoo! you have got a blackjack"
+// }else if (sum === 21) {
+//  message = "wohoo! you have got a blackjack"
  
- hasBlackJack=true
-}else{
-    message="you are out of the game"
-    isAlive=false
-}
+//  hasBlackJack=true
+// }else{
+//     message="you are out of the game"
+//     isAlive=false 
+// }
 
-appear.textContent=message
-show.textContent=message
-}
+// appear.textContent=message
+// show.textContent=message
+// }
 
-function start() {
-    let card=6
-    sum +=card
-    cardArray.push(card)
-    console.log(cardArray);
+// function start() {
+//     let card=6
+//     sum +=card
+//     cardArray.push(card)
+//     console.log(cardArray);
     
-}
+// }
 
 // let experience = ["sail cohort 5","no other experience"]
 // console.log(experience[1]);
@@ -180,10 +180,85 @@ function start() {
 // myself.pop()
 // console.log(myself);
 
+// const experience = [
+//     "software developer",
+//     "real estate",
+//     "business man", 
+//     "courier","vendor"]
+// const education= [
+//     "unilorin",
+//     "barachel",
+//     "hebron"]
+// const licenses = [
+//     "github",
+//     "solo dev",
+//     "aquatic hero",
+//     "savings"]
+// const skills = [
+//     "good communication skills",
+//     "work under pressure",
+//     "good impression"]
+//     console.log(skills[1]);
+//     console.log(skills[0]);
+//     console.log(skills[2]);
+
+// const yourself = ["damola",30,true]
+// const messages = [
+//     "hey,how are you",
+//     "im great, thank you",
+//     "all good"
+// ]
+//     const newmessages = "same here"
+//     messages.push(newmessages)
+//     console.log(messages);
+
+//     messages.pop()
+//     console.log(messages);
 
 
- 
- 
+// FOR LOOP
+// for (let count = 10;count < 101;count+= 10) {
+//     console.log(count);   
+// }
+    
+
+// LOOPS AND ARRAYS
+
+// let chat = ["who are we","joy is coming",800,"now you see me",false,"what if",true,"long life"]
+// for(let i = 0;i < chat.length; i+= 1) {
+//     console.log(chat[i]); 
+// }
+//  let cards = [7,3,9]
+//  for(let i = 0; i < cards.length; i += 1) {
+//     console.log(cards[i]);
+//  }
+
+//  let sentence = ["Hello","my","name","is","dami","yoyo"]
+//  let greetingEl= document.getElementById("greeting-el")
+//  for(let i = 0; i < sentence.length; i += 1) {
+//    greetingEl.textContent += sentence[i] + " "
+//    console.log(greetingEl); 
+//  }
+
+
+let player1Time = 102
+let player2Time = 107
+
+function getFastestRaceTime() {
+    if (player1Time < player2Time) {
+        return player1Time
+    } else if (player2Time < player1Time) {
+        return player2Time
+    }else{
+        return player1Time
+    }
+}
+
+let fastestRace = getFastestRaceTime()
+ console.log(fastestRace);
+
+
+
 
 
 

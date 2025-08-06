@@ -241,22 +241,298 @@
 //  }
 
 
-let player1Time = 102
-let player2Time = 107
+// let player1Time = 102
+// let player2Time = 107
 
-function getFastestRaceTime() {
-    if (player1Time < player2Time) {
-        return player1Time
-    } else if (player2Time < player1Time) {
-        return player2Time
-    }else{
-        return player1Time
-    }
+// function getFastestRaceTime() {
+//     if (player1Time < player2Time) {
+//         return player1Time
+//     } else if (player2Time < player1Time) {
+//         return player2Time
+//     }else{
+//         return player1Time
+//     }
+// }
+
+// let fastestRace = getFastestRaceTime()
+//  console.log(fastestRace);
+
+// let player1Time=100
+// let player2Time=200
+// let total = player1Time + player2Time
+
+// function getAllPlayers() {
+//    return total
+// }
+
+// let totaltime=getAllPlayers()
+// console.log(totaltime );
+
+// function getRandomCard() {
+//    return 5
+// }
+// getRandomCard()
+// console.log(getRandomCard());
+
+
+
+                      // MATH. RANDOM
+// let randomNumber = Math.random()*6
+// console.log(randomNumber);
+
+
+                      //MATH.FLOOR
+// let floored = Math.floor(4.85623)  
+// console.log(floored);
+
+
+//to modify expression so that we get a range from 1-6
+// let randomNumber = Math.floor(Math.random()*6)+1
+// console.log(randomNumber);
+
+// function rollDice() {
+//     let cal = Math.floor(Math.random()*6)+ 1
+//     return cal 
+// }
+// console.log(rollDice());
+
+
+// function getRandomCard() {
+   
+//     let randomCard = Math.floor(Math.random()*13) + 1
+//     return randomCard
+// }
+// console.log(getRandomCard());
+
+
+           // IF STATEMENT
+           
+           // THE LOGICAL AND OPERATOR
+
+let isAman = false
+let notAman= false
+
+if(isAman === false && notAman === false){
+       solution()
+        
 }
 
-let fastestRace = getFastestRaceTime()
- console.log(fastestRace);
+function solution() {
+    console.log("showing the solution");
+};
 
+
+// THE LOGICAL OR OPERATOR
+
+// let likeDocumentaries = true
+// let likeStartUps = false
+
+// if(likeDocumentaries === true || likeStartUps === false) {
+//    recommendMovies()
+// };
+
+// function recommendMovies() {
+//     console.log("hey, check out this new film");  
+// };
+
+
+                        //  OBJECT
+
+// let airbnb= {
+//     name:"house master",
+//     age:50,
+//     isAman:true,
+//     many:["carribean", "sholno"]
+// }
+
+// console.log(airbnb.age);
+// console.log(airbnb.many);
+// console.log(airbnb);
+
+// let player={
+//     name:"per",
+//     chips:234
+// }
+
+// let playerEl=document.getElementById("player-el")
+// playerEl.textContent=player
+
+
+//  RECAP
+
+// const myAge= 200
+// const humanDogRatio=8
+// const myDog=myAge*humanDogRatio
+// console.log(myDog);
+
+// let bonusPoint=50
+// console.log(bonusPoint);
+
+//  bonusPoint=bonusPoint+50
+//  console.log(bonusPoint);
+
+//  bonusPoint=bonusPoint-75
+//  console.log(bonusPoint);
+
+//  bonusPoint=bonusPoint+45
+//  console.log(bonusPoint);
+ 
+// function number() {
+//     console.log(42);  
+// };
+// number()
+
+// function lapTime() {
+//     let lap1=20
+//     let lap2=10
+//     let lap3=12
+//     let lap4=2
+//     console.log(lap1+lap2+lap3+lap4); 
+// };
+// lapTime()
+
+// let count = 0
+// let counting = document.getElementById("add")
+
+// function increment() {
+//     count=count+1
+//     counting.innerText=count
+// };
+// increment()
+
+// function decrement() {
+//     count= count-1
+//     counting.innerText=count
+// };
+
+// let name = "this is the main jinx"
+// let message="hello"
+// let myMessage = message + " "+ name
+// console.log(myMessage);
+
+// let name= "sanusi oyindamola"
+// let greeting="how are you doing today"
+// myGreetings=name + " " + greeting
+// console.log(myGreetings);
+
+// let welcomeEl = document.getElementById("welcome-el")
+// let name="joy omano"
+// let greetings= "wlecome to the club"
+// welcomeEl.innerText=name + " " + greetings
+
+// let welcomeEl = document.getElementById("welcome-el")
+// let firstName = "SANUSI";
+// let lastName = "OYINDAMOLA"
+// let myName = firstName + " " + lastName
+// welcomeEl.innerText=myName
+
+// let name = document.getElementById("greeting")
+// let showing = document.getElementById("show")
+
+
+//    function callName() {
+//     let allNames="sanusi oyindamola iyanu"
+//     name.innerText=allNames
+//     showing.innerText=`welcome: ${name.innerText}`
+//    };
+//    callName()
+
+//    let myError = document.getElementById("error")
+//    function seeError() {
+//     myError.innerText="something went wrong, please try again"
+//    };
+ 
+// let count = 0
+// let num1 = 8
+// let num2 = 2
+// document.getElementById("num1-el").textContent
+// document.getElementById("num2-el").textContent
+// let result= document.getElementById("showresult")
+//  let counting = document.getElementById("count-el")
+
+
+// function addition() {
+//     let outcome = num1+ num2
+//     result.textContent=outcome
+// }
+
+// function subtraction() {
+//     outcome=num1-num2
+//     result.textContent = outcome
+// }
+
+// function multiply() {
+//     outcome = num1 * num2
+//     result.textContent = outcome
+// }
+
+// function division() {
+//     outcome = num1 / num2
+//     result.textContent=outcome
+// }
+
+
+// function increment() {
+//     count = count + 1
+//     counting.innerText=count
+// };
+
+// let firstCard= 9
+// let secondCard= 5
+// let display= document.getElementById("show")
+// let sum = firstCard + secondCard
+
+// function comeAlive() {
+//     display.textContent=`the total sum of your cards is: ${sum}`
+//     if (sum < 2) {
+//        alert(
+//         "sorry number too low 😒"
+//        )
+//     } else if (sum === 11) {
+//         alert("wow you won !!!!!! 😂")
+//     }else if (sum > 11) {
+//        alert("you lost with your full chest 🤥")
+//     }
+// };
+// comeAlive()
+
+let age = 71
+
+if (age < 21) {
+   console.log(" sorry you are too young and cannot go into the club");
+} else if (age >20) {
+   console.log("you are eligible to enter the club");
+}else{
+    console.log("error");
+    
+}
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+ 
+                  
+
+
+
+ 
 
 
 
